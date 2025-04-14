@@ -1,9 +1,12 @@
 import {IncomingMessage, ServerResponse} from "http";
+import {servicesListEpisodes} from "../services/list-episodes-services";
 
+export const getListEpisodes = async (
+    request: IncomingMessage, 
+    response: ServerResponse
+) =>{
+    const content = await servicesListEpisodes();
 
-export const getListEpisodes = async (request: IncomingMessage, response: ServerResponse) =>{
     response.writeHead(200,{'content-type': "application/json"});
-    response.end({
-        name: "Lucas",
-    });
+    response.end(JSON.stringify(content));
 };
