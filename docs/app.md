@@ -12,3 +12,12 @@ Podcasts em Vídeo
         -[saúde, fitness, mentalidade, humor]
     -Filtrar episódios por nome de poscasts
 
+### Como implementar
+GET: retorna lista de episodeos
+
+response: 
+[
+    {
+
+    }
+]
