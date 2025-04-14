@@ -2,7 +2,7 @@
 
 
 ### Descrição
-Um app ao estilo netflis, onde possa centralizar diferentes epísodeos podcasts separados por categorias
+Um app ao estilo netflix, onde possa centralizar diferentes epísodeos podcasts separados por categorias
 
 ### Domínio 
 Podcasts em Vídeo
